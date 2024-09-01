@@ -1,0 +1,22 @@
+Padding:- It is inside the border and defines how content for example "Click me" inside button will appear
+runs clockwise TOP, RIGHT, BOTTOM, LEFT
+-----------------------------------------------------
+Border:- padding and border combines and gives exact amount of px of how much that particular element in box model is taking
+
+syntax border: border pixels, (solid, dashed, dotted), color;
+-----------------------------------------------------
+border radius- used to make box round ended or circle by defining it radius to the square
+syntax;- border-radius top left, top right, bottom right, bottom left.
+-----------------------------------------------------
+Margin:- It defines the spaces between two objects or two elements 
+runs clockwise TOP, RIGHT, BOTTOM, LEFT
+
+If we have two objects or elements with 
+1. div element with margin 20px, 30px, 40px, 50px
+2. div element with margin 40px, 30px, 40px, 50px
+Margin between two div elements will be 40px it is not added like Top + bottom
+and if one of them have bigger margin then the distance will be that margin between these two
+-----------------------------------------------------
+Box-sizing:- it is a method to make our element or it's box sizing limited to what we expect for example if i want my border as 50 x 50 pixel i will use border box method and it will shrink the content or padding to meet my needs
+
+or if i want it to expand how much the elements wants then we can use content-box method which is default already

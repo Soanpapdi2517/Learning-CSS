@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box sizing</title>
+
+    <style>
+        .box{
+            height: 50px;
+            width: 50px;
+            padding: 5px;
+        }
+        #box-sizing-default{
+            border: 2px solid green;
+            background-color: rgb(202, 34, 220, 0.5);
+            box-sizing: content-box;
+        }
+    #box-sizing-border-box{
+        margin-top: 5px;
+        border: 2px solid rgba(22, 202, 22, 0.649);
+            background-color: rgba(251, 255, 0, 0.5);
+            box-sizing: border-box;
+    }
+    </style>
+</head>
+<body>
+    <div id="box-sizing-default" class="box">Content box</div>
+    <div id="box-sizing-border-box" class="box">border box</div>
+</body>
+</html>
