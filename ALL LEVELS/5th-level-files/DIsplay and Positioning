@@ -1,0 +1,18 @@
+Display have 4 categories
+Block- Use to show inline elements(<a>, <img>, <span>) in block 1 by 1
+inline -Use to show block elements(<div>, <p>, <h1>) in inline but their height, width, padding, margin we cannot set
+inline-block - using this show block elements(<div>, <p>, <h1>) in inline we can change their height, width, padding, margin we can change.
+None - We can disapper the element by using this -- we use it to delete after clicking for some animatic website
+---------------------------------------------------------------------------------------------------------------------------------------------------
+relative units
+px- absolute value
+% - becomes ratio of its parent for example 50% width means 1/2 of total width it will take
+em - if we want to define twice(2em), thrice(3em) of pixel size of it's parent for example i have font size 25px i use child div with have 2em means its have font size 50px
+rem- if we want to define my font size, width, height respective to my root element (*{}) in parent div then we can use rem
+vh & vw - it is called veiwport height & width varies from 0-100 it means the screen u are watching on web page how muvh of it % in height and width u can control or change for example vh & vw 50 in width and height makes it use 1/4 of screen size and its use for responsiveness of website
+---------------------------------------------------------------------------------------------------------------------------------------------------
+Position Property
+Static - default value makes the element box be like it positions usually
+relative - relative position allows the element to move it from it usual position to top, left, bottom, right
+absolute - absolute gives the element box to 1 stage above of the page from other element boxes for example using this we can overlap it to other boxes
+fixed - fixed gives the element box to be at that position doesn't matter how much the screen is scrolling, using this we can make some element to not go out from screen for example Ai chat bot assistant we see on websites

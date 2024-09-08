@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position property</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .Position{
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            border: 5px solid black;
+            margin-bottom: 5px;
+            padding:20px 12px;
+            box-sizing: border-box;
+        }
+        .content{
+            background-color: aqua;
+            border: 5px solid black;
+            padding:20px 12px;
+            box-sizing: border-box;
+        }
+        #static{
+            position: static;
+            background-color: blue;
+        }
+        #relative{
+            position: relative;
+            top: 23px;
+            left: 50px;
+        }
+        #absolute{
+            position: absolute;
+            margin: 0;
+            top: 25px;
+            left: 29px;
+        }
+        #fixed{
+            position: fixed;
+            top: 85vh;
+            width: 100vw;
+        }
+    </style>
+</head>
+<body>
+    <div id="static" class="Position">1 static</div>
+    <div id="relative" class="Position"> 2 Relative</div>
+    <div id="absolute" class="Position">3 Absolute</div>
+    <div id="fixed" class="Position"> 4 Fixed</div>
+    <div class="content">Contents</div>
+    <div class="content">Contents</div>
+    <p style="font-size: x-large;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore deleniti at nesciunt corporis? Fugiat, eligendi aperiam? Itaque voluptatem unde, accusamus odit at illo aut error.</p>
+    <div class="content">Contents</div>
+    <div class="content">Contents</div>
+    <div class="content">Contents</div>
+    <p style="font-size: x-large;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt temporibus reiciendis minus impedit dolores tenetur eveniet assumenda consequatur magnam cumque corrupti veritatis rem recusandae asperiores dolorum nulla, dolor accusamus autem nesciunt sit facere tempora vero sequi mollitia. Sequi dolores consequuntur, officia nulla reiciendis praesentium inventore fugit odit dicta quos molestias. Iusto numquam corrupti odit inventore recusandae aliquid dignissimos rem temporibus eligendi, perferendis nam in nostrum quis asperiores esse quaerat placeat consequuntur. Ipsa soluta nobis dolore maiores eum. Minima deserunt ipsa officiis odit rem architecto, cupiditate totam reprehenderit, sapiente tempora, quod quam veniam ipsum magni cumque inventore sint perferendis vero voluptates.</p>
+</body>
+</html>

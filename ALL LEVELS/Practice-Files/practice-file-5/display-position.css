@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav a{
+    text-decoration: none;
+    margin-left: 55px;
+    padding: 5px;
+}
+header{
+    background-color: cyan;
+}
+#second{
+    height: 100px;
+    width: 100px;
+    background-color: greenyellow;
+    border-radius: 50%;
+    padding-top: 37px;
+    padding-left: 24px;
+    box-sizing: border-box;
+}
+.divs{
+    width: 50px;
+    background-color: blue;
+    display: inline-block;
+}

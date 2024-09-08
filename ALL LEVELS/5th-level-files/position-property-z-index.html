@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position property - Z index</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .index{
+            height: 50px;
+            width: 50px;
+            background-color: aquamarine;
+            border: 2px solid black;
+            margin: 5px;
+        }
+        #Z-index-1{
+            position: relative;
+            z-index: 1;
+            top: 30px;
+        }
+        #Z-index-2{
+            position: relative;
+            z-index: 0;
+        }
+        #Z-index-3{
+            position: relative;
+            display: inline-block;
+            z-index: 2;
+            bottom: 30px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="Z-index-1" class="index">Box 1</div>
+    <div id="Z-index-2" class="index">Box 2</div>
+    <div id="Z-index-3" class="index">Box 3</div>
+</body>
+</html>

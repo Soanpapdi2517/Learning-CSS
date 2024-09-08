@@ -1,0 +1,39 @@
+FlexBox - flexbox is a one-dimensional method for arranging items in rows or columns. items flex(expand) to fil additional space or shrink to fit into smaller spaces.
+display: flex; default is main axis- left to right in rows
+cross axis - top to bottom in columns
+-----------------------------------------------------
+flex-direction - 
+from left to right - rows
+from right to left - reverse-rows
+from top to bottom - columns
+from botton to top - reverse-columns
+-----------------------------------------------------
+justify content - runs towards main axis from left to right
+center- make ur element boxes in center
+end - make ur element boxes in end
+start - make ur element boxes in start
+spacing between - make ur element boxes of having maximum spaces possible
+spacing around - make ur element boxes of having 1:2 spacing from Box border to other element box
+spacing evenly - make ur box having evenly space to other element boxes and container
+baseline- it will arrange your content as per the inner text if one text is small and others are big it will give them a single line and runs as per them
+-----------------------------------------------------
+align-items - runs towards cross axis from top to bottom
+center- make ur element boxes in center
+end - make ur element boxes in end
+start - make ur element boxes in start
+-----------------------------------------------------
+Align contents - Runs towards cross axis makes easy to control spacing between element boxes
+-----------------------------------------------------
+flex-wrap - 
+nowarap- when page will shrink it will make your elememt box also shrink
+wrap - when page will shrink it will make your elememt box to go in next line
+reverse wrap - it make ur element start from bottom and when container shrink it will go wrap in upward direction
+-----------------------------------------------------
+align-self - if we want to adjust a particular item to its center start or end in cross axis we can do it using align self
+----------------------------------------------------
+flex-shrink - it is defined in particular element so that when page will shrink the that particular object shrink more than other elements or remain same as in its original size by doing it 0 to 2x 3dx...
+----------------------------------------------------
+flex-grow - it is defined in particular element so that when page will grow the that particular object grow more than other elements or remain same as in its original size by doing it 0 to 2x 3dx...
+it stretches that particular element as how much as it can
+----------------------------------------------------
+order - it changes the default order in which we had presented the html 

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>relative units</title>
+    <style>
+        *{
+            /* root element */
+            margin: 0;
+            padding: 0;
+             font-size: 30px;
+
+        }
+        #first{
+            height: 200px;
+            width: 200px;
+            background-color: blueviolet;
+            font-size: 15px;
+        }
+        #second{
+            background-color: aqua;
+            height: 26%;
+            width: 75%;
+            font-size: 2em; 
+            /* em means twice, trice of its parents for example here font size */
+        }
+        #root{
+            font-size: 2rem;
+        }
+    </style>
+</head>
+<body>
+    Body Text
+    <div id="first">
+        first
+        <div id="second">Second</div>
+        <div id="root"> For root element</div>
+    </div>
+</body>
+</html>
