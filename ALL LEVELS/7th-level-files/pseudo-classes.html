@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Classes</title>
+    <script src="https://kit.fontawesome.com/c6f66dd63e.js"></script>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        #container{
+            background-image: url(https://images.pexels.com/photos/573130/pexels-photo-573130.jpeg?cs=srgb&dl=pexels-zyuliansyah-573130.jpg&fm=jpg);
+            background-repeat:no-repeat;
+            height: max-content;
+            border: 1px solid plum;
+            border-radius: 25px;
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 5px 0px;
+        }
+        #container :hover{
+            background-size: cover;
+        }
+        .btn{
+            height: 30px;
+            width: 80px;
+            margin: 0px 5px;
+            border-radius: 15px;
+        }
+        .btn:hover{
+            border: 0px;
+            background-color: white;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        .btn:active{
+            height: 25px;
+            width: 40;
+            font-weight: 700;
+            text-shadow: 23px;
+            font-size: larger;
+        }
+
+    </style>
+</head>
+<body>
+    <header> <h1>Myntra</h1>
+        <nav><div id="container">
+            <button id="btn1" class="btn">Home</button>
+            <button id="btn2" class="btn">Product</button>
+            <button id="btn3" class="btn">Trends</button>
+            <button id="btn4" class="btn">Checkout</button>
+        </div></nav>
+    </header>    
+</body>
+</html>
