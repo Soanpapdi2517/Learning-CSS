@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animation</title>
+    <style>
+      #box {
+        height: 50px;
+        width: 55px;
+        border: 2px solid rgb(0, 0, 0);
+        margin: 5px;
+        border-radius: 5px;
+        background-color: rgb(158, 204, 9);
+        position: relative;
+        top: 10px;
+        left: 10px;
+        animation-name: ghuma;
+        animation-duration: 2s;
+        animation-timing-function: ease-in-out;
+        animation-delay: 0s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate-reverse;
+      }
+      @keyframes ghuma {
+        from{left: 10px;}
+        to{ left: 300px;}
+      }
+    </style>
+  </head>
+  <body>
+    <div id="box">Animate</div>
+  </body>
+</html>

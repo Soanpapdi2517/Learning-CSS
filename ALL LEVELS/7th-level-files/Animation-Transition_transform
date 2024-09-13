@@ -1,0 +1,42 @@
+Transition - It will make ur transition smoother or faster depending on your needs
+transition-property- defines you want to use it on everyone(all) or none
+transition-duration - for how much your transition will takes place
+transition-timing-function: it defines the transition how it will perform in starting, ending while transition
+transition-delay: after how much time the transition will start
+
+Short Hand
+transition: all, transition-duration, transition-timing-function(effect), transition-delay;
+
+**********************************************************************************************************************************************
+
+Tranform- It tranforms your element it rotates, scales up or down, its skews and it translates
+Rotate - it rotates your element in your respective degree and we can also control in it respective direction, rotatex(),rotatey(),rotatez(),
+scale - it works in times method if u put 2, it means it is 2x of the size u mentioned before
+scalex(), scaley() are its types
+Translate - It moves the element from it's position to the mentioned position default value is in x axis
+we can make it go diagonally also using translate(50px, 50px)
+we can use it as translatex() for x axis, translatey() for y axis
+skew- it tilt the element in the respective direction in x axis or y axis with the entered degree skewx or skewy
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+Animation: firstly we have to define what animation we want from where to where
+@keyframes #NameOfAnimation{
+from{top:10px;}
+to{top:258px;}
+}
+then we have to use it in that element's styling where we want to use it
+.box{
+    Animation-Name:#NameofAnimation;-- which is defined earlier
+    Animation-duration:2s; --for how much time it will go on
+    animation-timing-function:ease, ease-in, ease-in-out, linear...others;
+    animation-delay:1s; ---for how much time it will delay
+    animation-iteration-count: for how much times it will go--infinite, 5 times, or whatever;
+    animation-direction:reverse, alternate-reverse, alternate, normal(default);
+
+    shortHand--
+    animation:name duration timing-function delay iteration-count direction;
+
+    example
+    animation:Chala 4s ease-in-out 0s infinite alternate;
+
+}
