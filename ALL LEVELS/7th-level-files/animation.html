@@ -34,31 +34,20 @@
         box-sizing: border-box;
         background-color: rgb(23, 151, 236);
         position: relative;
-        top: 50px;
-        right: 50px;
+        top: 50vh;
+        left:50vw;
         animation: moreAnimate 4s ease-in-out 0.5s infinite alternate;
       }
       @keyframes moreAnimate {
         0%{
-          righ
-        }
-        25%{
-          bottom: 50px;
-          left: 50px;
+          scale: 2;
         }
         50%{
-          bottom: 25px;
-          right: 25px;
-        }
-        75%{
-          top: 25px;
-          right: 25px;
+          scale: 4;
         }
         100%{
-          top: 25px;
-          left: 25px;
+          scale:2;
         }
-      }
     </style>
   </head>
   <body>
