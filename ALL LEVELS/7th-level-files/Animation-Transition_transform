@@ -24,6 +24,12 @@ Animation: firstly we have to define what animation we want from where to where
 from{top:10px;}
 to{top:258px;}
 }
+or we can define it in % also where we can say that at 0% it will go left
+then 25% it will go down
+then 50% it will go right
+then at 75% it will go up
+{
+}
 then we have to use it in that element's styling where we want to use it
 .box{
     Animation-Name:#NameofAnimation;-- which is defined earlier

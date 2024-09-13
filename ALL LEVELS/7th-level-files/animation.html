@@ -20,16 +20,49 @@
         animation-timing-function: ease-in-out;
         animation-delay: 0s;
         animation-iteration-count: infinite;
-        animation-direction: alternate-reverse;
+        animation-direction: alternate;
         /* animation-fill-mode:none; */
       }
-      @keyframes ghuma {
-        from{left: 10px;}
-        to{ left: 300px;}
+      #moreAnimate{
+        height: 90px;
+        width: 90px;
+        border: 2px solid rgb(0, 0, 0);
+        margin: 5px;
+        text-wrap: wrap;
+        border-radius: 5px;
+        padding-top: 30px;
+        box-sizing: border-box;
+        background-color: rgb(23, 151, 236);
+        position: relative;
+        top: 50px;
+        right: 50px;
+        animation: moreAnimate 4s ease-in-out 0.5s infinite alternate;
+      }
+      @keyframes moreAnimate {
+        0%{
+          righ
+        }
+        25%{
+          bottom: 50px;
+          left: 50px;
+        }
+        50%{
+          bottom: 25px;
+          right: 25px;
+        }
+        75%{
+          top: 25px;
+          right: 25px;
+        }
+        100%{
+          top: 25px;
+          left: 25px;
+        }
       }
     </style>
   </head>
   <body>
     <div id="box">Animate</div>
+    <div id="moreAnimate">moreAnimate</div>
   </body>
 </html>
